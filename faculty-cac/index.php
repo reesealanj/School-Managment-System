@@ -56,7 +56,7 @@ require "header.php";
 			echo "<br /><br /><a class='redir' href='../grad-secretary/index.php'>Change to Graduate Secretary View</a><br /><br />";
 		}
 		if(($role1 == 8) ||($role2 == 8) ||($role3 == 8)){
-			echo "<br /><br /><a class='redir' href='../cac/index.php'>Change to Chair of Admissions Committee View</a><br /><br />";
+			echo "<br /><br /><a class='redir' href='../faculty-cac/index.php'>Change to Chair of Admissions Committee View</a><br /><br />";
 		}
 	?>
 </form>
