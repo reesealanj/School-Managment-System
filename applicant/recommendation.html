@@ -1,0 +1,22 @@
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Application</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+  <h2>Send a recommendation by filling out this form</h2>
+
+  <form method="post" action="recommendation.php" id = "rec_form">
+    <label for="id_num">Id number:</label>
+    <input type="number" name="id_num" /><br /><br />
+    Write recommendation here: <br /> 
+      <textarea name="rec" maxlength = 4096 rows = "10" cols = "100" form="rec_form"></textarea><br />
+    
+    
+    
+
+    <input type="submit" value="Submit Recommendation" name="submit" /><br/><br/>
+  </form>
+
+</body>
+</html>

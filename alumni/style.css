@@ -1,0 +1,86 @@
+body{
+	font-family: "verdana";
+
+}
+main{
+	margin-left: 160px;
+	padding: 0px 10px;
+}
+.nav{
+	height: 100%;
+	width: 160px;
+	position: fixed;
+	z-index:1;
+	top:0;
+	background-color: black;
+	overflow-x: hidden;
+	padding-top:40px;
+}
+
+.nav a{
+	padding: 6px 8px 6px 16px;
+	text-decoration: none;
+	font-size: 25px;
+	color: #818181;
+	display:block;
+}
+
+.nav a:hover{
+	color: white;
+}
+
+.change-tbl h1, p{
+	text-align:left;
+}
+
+.change-tbl table{
+	height: 25px;
+	width: auto;
+	font-size: 20px;
+	text-align: center;
+	border: 4px solid navy;
+	vertical-align: center;
+}
+
+.change-tbl td{
+	text-align:right;
+}
+.change-tbl th{
+	text-align:center;
+	color: white;
+	background-color: navy;
+}
+.change-tbl tr:hover{
+	background-color: #f5f5f5;
+}
+
+.reset{
+	color: black;
+	font-weight: 100;
+	font-size: 56px;
+	text-align: center;
+	border: solid 2px red;
+
+	padding: 10px 80px;
+	transition-duration: 200ms;
+}
+
+.reset:hover{
+	background-color: white;
+	color:red;
+}
+.redir {
+  font: bold 20px Arial;
+  text-decoration: none;
+  background-color: #EEEEEE;
+  color: #333333;
+  padding: 2px 6px 2px 6px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+}
+
+.redir:hover{
+	background-color:#b2b2b2;
+}
