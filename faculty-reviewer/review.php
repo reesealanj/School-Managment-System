@@ -3,9 +3,7 @@
 ?>
 <main>
   <?php
-    if(isset($_GET['id']){
-      
-    }
+  
   ?>
 </main>
 <?php
